@@ -1,0 +1,14 @@
+show databases;
+create database ticket;
+use ticket;
+CREATE TABLE bookingsys (
+    id INT AUTO_INCREMENT PRIMARY KEY,        
+    username VARCHAR(255),            
+    destination VARCHAR(255) ,       
+    date varchar(100) ,                       
+    quantity varchar(100) ,                     
+    gender varchar(100)                      
+);
+
+select * from bookingsys;
+drop table bookingsys;
